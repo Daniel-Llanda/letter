@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Babu</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		@font-face{
+			src: url("peristiwa.otf");
+			font-family: peristiwa;
+		}
+		main{
+			height: 100vh;
+			width: 100vw;
+			display: grid;
+			grid-template-columns: 50% 50%;
+		}
+		.title-holder, .letter-holder{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-family: peristiwa;
+			flex-direction: column;
+			gap: 2rem;
+		}
+		img{
+			height: 600px;
+			width: 500px;
+		}
+		.title{
+			font-size: 3rem;
+			position: absolute;
+			margin-bottom: 500px;
+		}
+		.message{
+			display: flex;
+			gap:2rem ;
+			flex-direction: column;
+			
+		}
+		p{
+			font-size: 1.3rem;
+		}
+
+		@media (max-width: 1115px) {
+		  	main{
+				height: 100vh;
+				width: 100vw;
+				display: flex;
+				flex-direction: column;
+				gap: 3rem;
+			}
+			.title{
+				margin-bottom: 300px;
+			}
+		}
+		@media (max-width:768px) {
+			.title{
+				font-size: 2rem;
+			}
+			.message{
+				padding: 0 40px;
+				
+			}
+		}
+		@media (max-width:428px) {
+			.message{
+				padding: 0 30px;
+				
+			}
+		}
+		
+	</style>
+</head>
+<body>
+	<main>
+		<div class="title-holder">
+			<h1 class="title">The sunset is beautiful, isn't it?</h1>
+			<img src="sunset.png">
+		</div>
+		<div class="letter-holder">
+			<div class="message">
+				<p>
+					Our journey together during the pandemic was filled with unforgettable moments that brightened our days. We embraced the virtual world, finding joy and heartfelt conversations that kept us connected despite the distance. Our date at Vista Mall was a breath of fresh air, where we discovered our shared love for long conversations. That night marked the beginning of a new chapter, leading to our first overnight stay at Sealine Resort, The first overnight adventure on Sealine was a magical escape, as we shared laughter and created memories.
+				</p>
+				<p>
+					Sacrifice, patience, and acceptance are the cornerstones of letting go, each demanding its own kind of strength. When we decide to release someone we deeply care about, we often do so out of a firm belief that it is necessary for our own growth and the growth of the other person. As we let go, we embrace the painful reality that sacrifice is not just about loss but about creating space for new beginnings and understanding.
+				</p>
+				<p>
+					Letting go of the people you love is one of the hardest things you can do. It feels like a piece of your heart is being left behind, but sometimes it’s necessary for both growth and healing. As the sun sets, painting the sky in hues of orange and pink, it’s a reminder that even as we part ways, the beauty of our shared moments remains. The sunset is beautiful, isn't it? If you ever feel like coming back, know that my door is always open.
+
+				</p>
+			</div>
+			
+		</div>
+
+	</main>
+
+</body>
+</html>
